@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\user\\Desktop\\Source\\xRust\\obj\\RustLib\\x64\\debug\\std.ixx.obj",
+            "outputs": [
+                "C:\\Users\\user\\Desktop\\Source\\xRust\\bin\\x64\\RustLib_debug.pdb",
+                "C:\\Users\\user\\Desktop\\Source\\xRust\\obj\\RustLib\\x64\\debug\\",
+                "C:\\Users\\user\\Desktop\\Source\\xRust\\obj\\RustLib\\x64\\debug\\std.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\modules\\std.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

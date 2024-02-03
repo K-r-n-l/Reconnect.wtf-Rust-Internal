@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Runtime\Runtime.cpp" />
+    <ClCompile Include="Core\CCore.cpp" />
+    <ClCompile Include="Core\Sdk\Il2Cpp\CIl2Cpp.cpp" />
+    <ClCompile Include="Core\Sdk\Il2Cpp\il2cpp-api.cpp" />
+    <ClCompile Include="Core\RustHooks\ClientInput\ClientInput.cpp" />
+    <ClCompile Include="Core\RustHooks\HookFunc\HookFunc.cpp" />
+    <ClCompile Include="Core\RustHooks\OnGUI\OnGUI.cpp" />
+    <ClCompile Include="Core\RustHooks\Update\Update.cpp" />
+    <ClCompile Include="Core\RustSDK\UnityEngine\UnityEngine.cpp" />
+    <ClCompile Include="Core\RustSDK\AssemblyCSharp\AssemblyCSharp.cpp" />
+    <ClCompile Include="Core\RustSDK\System\System.cpp" />
+    <ClCompile Include="Core\Menu\Menu.cpp" />
+    <ClCompile Include="Core\Esp\Visuals.cpp" />
+    <ClCompile Include="Core\RustSDK\ProtoBuf\ProtoBuf.cpp" />
+    <ClCompile Include="Core\Aimbot\Aimbot.cpp" />
+    <ClCompile Include="Core\RustHooks\OnInput\OnInput.cpp" />
+    <ClCompile Include="Core\RustHooks\ProjectileUpdate\ProjectileUpdate.cpp" />
+    <ClCompile Include="Core\RustHooks\PlayerProjectileAttack\PlayerProjectileAttack.cpp" />
+    <ClCompile Include="Core\RustHooks\TryToMove\TryToMove.cpp" />
+    <ClCompile Include="Core\RustHooks\DoFixedUpdate\DoFixedUpdate.cpp" />
+    <ClCompile Include="Core\RustHooks\PlayerWalkMovement\PlayerWalkMovement.cpp" />
+    <ClCompile Include="Core\RustHooks\OnAttacked\OnAttacked.cpp" />
+    <ClCompile Include="Core\RustHooks\BlockSprint\BlockSprint.cpp" />
+    <ClCompile Include="Core\RustHooks\DoAttack\DoAttack.cpp" />
+    <ClCompile Include="Core\RustHooks\PlayerProjectileRicochet\PlayerProjectileRicochet.cpp" />
+    <ClCompile Include="Core\RustHooks\SteamClientWrapper\SCWUpdate.cpp" />
+    <ClCompile Include="Core\Menu\ChineseMenu.cpp" />
+    <ClCompile Include="Core\RustHooks\OnNetworkMessage\OnNetworkMessage.cpp" />
+    <ClCompile Include="Core\V1 shit\SteamPlatform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\CCore.hpp" />
+    <ClInclude Include="Core\Globals\Globals.hpp" />
+    <ClInclude Include="Core\Utils\Utils.hpp" />
+    <ClInclude Include="Core\Settings\Settings.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\CIl2Cpp.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-api.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-api-functions.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-api-types.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-blob.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-class-internals.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-config.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-config-api.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-metadata.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-object-internals.hpp" />
+    <ClInclude Include="Core\Sdk\Il2Cpp\il2cpp-runtime-metadata.hpp" />
+    <ClInclude Include="Core\Hooks\FlintStrikeWeapon\DoAttack.hpp" />
+    <ClInclude Include="Core\RustHooks\ClientInput\ClientInput.h" />
+    <ClInclude Include="Core\RustHooks\HookFunc\HookFunc.h" />
+    <ClInclude Include="Core\RustHooks\OnGUI\OnGUI.h" />
+    <ClInclude Include="Core\RustHooks\Update\Update.h" />
+    <ClInclude Include="Core\RustSDK\UnityEngine\UnityEngine.h" />
+    <ClInclude Include="Core\RustSDK\AssemblyCSharp\AssemblyCSharp.h" />
+    <ClInclude Include="Core\RustSDK\System\System.h" />
+    <ClInclude Include="Core\RustSDK\RustStructs.h" />
+    <ClInclude Include="Core\Menu\Menu.h" />
+    <ClInclude Include="Core\Esp\Visuals.h" />
+    <ClInclude Include="Core\RustSDK\ProtoBuf\ProtoBuf.h" />
+    <ClInclude Include="Core\Aimbot\Aimbot.h" />
+    <ClInclude Include="Core\RustHooks\OnInput\OnInput.h" />
+    <ClInclude Include="Core\RustHooks\ClientInput\Manipulation.h" />
+    <ClInclude Include="Core\RustHooks\ProjectileUpdate\ProjectileUpdate.h" />
+    <ClInclude Include="Core\RustHooks\PlayerProjectileAttack\PlayerProjectileAttack.h" />
+    <ClInclude Include="Core\RustHooks\TryToMove\TryToMove.h" />
+    <ClInclude Include="Core\RustHooks\DoFixedUpdate\DoFixedUpdate.h" />
+    <ClInclude Include="Core\RustHooks\PlayerWalkMovement\PlayerWalkMovement.h" />
+    <ClInclude Include="Core\RustHooks\OnAttacked\OnAttacked.h" />
+    <ClInclude Include="Core\RustHooks\BlockSprint\BlockSprint.h" />
+    <ClInclude Include="Core\RustHooks\DoAttack\DoAttack.h" />
+    <ClInclude Include="Core\RustHooks\PlayerProjectileRicochet\PlayerProjectileRicochet.h" />
+    <ClInclude Include="Core\RustHooks\SteamClientWrapper\SCWUpdate.h" />
+    <ClInclude Include="Core\RustHooks\OnNetworkMessage\OnNetworkMessage.h" />
+  </ItemGroup>
+</Project>
